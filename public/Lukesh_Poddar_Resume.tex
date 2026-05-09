@@ -1,0 +1,114 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[
+    ignoreheadfoot,
+    top=0.15cm,
+    bottom=0.05cm,
+    left=1.2cm,
+    right=1.2cm,
+    footskip=0.10cm
+]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    pdfborder={0 0 0}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{LUKESH PODDAR}}\\[3pt]
++91-9304616289 \hspace{10pt}\href{mailto:lukeshpoddar.dev@gmail.com}{\textcolor{blue}{lukeshpoddar.dev@gmail.com}}\\[1pt]
+\href{https://github.com/TechieLukesh}{\textcolor{blue}{GitHub}}
+\hspace{10pt}
+\href{https://www.linkedin.com/in/lukeshpoddar/}{\textcolor{blue}{LinkedIn}}
+\hspace{10pt}\href{https://leetcode.com/u/xvariant/}{\textcolor{blue}{LeetCode}}
+\hspace{10pt}
+\href{https://codeforces.com/profile/xvariant}{\textcolor{blue}{Codeforces}}
+\end{center}
+
+\vspace{0pt}
+
+\noindent\textbf{EDUCATION}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\[1pt]
+\textbf{Birla Institute of Technology, Mesra} \hfill Sep 2023 -- Aug 2027\\
+Bachelor of Technology in Computer Science \hfill GPA: 8.47/10.0
+
+\vspace{2pt}
+
+\noindent\textbf{TECHNICAL SKILLS}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\[1pt]
+\textbf{Programming Languages:} C, C++, JavaScript, Python, SQL, Assembly (x86 concepts)\\
+\textbf{Embedded \& Systems:} Software Development Lifecycle (SDLC), Firmware Logic, Low-level C Programming, Memory Management, Object-Oriented Programming\\
+\textbf{Web \& Frameworks:} React.js, Node.js, Express.js, FastAPI, REST APIs, WebSocket, HTML5, CSS3\\
+\textbf{Tools \& DevOps:} Git, GitHub, Docker, AWS S3, Vercel, Railway, VS Code, Jupyter Notebook\\
+\textbf{Databases:} MongoDB, PostgreSQL, MySQL, Redis\\
+\textbf{Core CS:} Data Structures \& Algorithms, Operating Systems, DBMS, Computer Networks, Analytical Problem Solving
+
+\vspace{2pt}
+
+\noindent\textbf{TECHNICAL PROJECTS}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\vspace{0pt}
+
+\textbf{WalmartGuard --- Real-Time Fraud Detection Platform} \hfill \href{https://github.com/TechieLukesh/WalmartML}{\textcolor{blue}{Source Code}}\\
+\textit{FastAPI, Python, XGBoost, SHAP, LangChain, GPT-4o-mini, PostgreSQL, MongoDB, Redis, React, TypeScript, WebSocket, JWT, Docker, Railway, Vercel}
+\begin{itemize}[leftmargin=10pt,itemsep=0pt,parsep=0pt,topsep=0pt]
+    \item Engineered a production-grade fraud detection backend in C-style procedural Python/FastAPI with async transaction scoring under 100ms; XGBoost model achieved 99.25\% AUC-ROC across dual-database architecture (PostgreSQL + MongoDB + Redis).
+    \item Designed SHAP feature attribution pipeline feeding GPT-4o-mini to auto-generate plain-English fraud analyst reports, replacing black-box model outputs with signal-traced, analyst-actionable explanations per alert.
+    \item Implemented automated model retraining triggered by statistical feature drift (z-score analysis), false-positive rate thresholds, and label accumulation --- with metric-gated promotion ensuring production deployments only on ROC-AUC improvement.
+    \item Containerized 5-service system via Docker Compose; deployed on Railway + Vercel with 18+ pytest integration tests covering auth, rate limiting, duplicate detection, and end-to-end pipeline validation.
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{Custom VCS --- Git-Inspired Version Control System} \hfill \href{https://frontend-main-dun.vercel.app}{\textcolor{blue}{Live Demo}} \hspace{10pt} \href{https://github.com/variantbyx/versionControl}{\textcolor{blue}{Source Code}}\\
+\textit{React, Node.js, Express, MongoDB Atlas, AWS S3, REST API, JWT}
+\begin{itemize}[leftmargin=10pt,itemsep=0pt,parsep=0pt,topsep=0pt]
+    \item Architected a Git-inspired VCS from scratch supporting init, commit, push, pull, and revert across 100+ repositories; persisted metadata in MongoDB Atlas and binary blobs in AWS S3 behind a JWT-authenticated REST API.
+    \item Built a 5-algorithm plagiarism engine --- Jaccard token similarity, SHA-1 line fingerprinting, cosine semantic vectors, AST bigram overlap, and commit hash matching --- computing a unified 0--100 risk score per code diff.
+    \item Diagnosed and resolved 4 production failures: Mongoose schema misconfiguration, serverless DB reconnection races, CI environment variable injection errors, and SPA client-side routing conflicts --- demonstrating systematic debugging across the full software development lifecycle.
+\end{itemize}
+
+\vspace{2pt}
+
+\noindent\textbf{PROFESSIONAL EXPERIENCE}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\[1pt]
+\textbf{Independent Game Developer \& Technical Content Creator} \hfill Feb 2021 -- Aug 2021\\
+\textit{Unity (C\#) | Self-Employed}
+\begin{itemize}[leftmargin=10pt,itemsep=0pt,parsep=0pt,topsep=0pt]
+    \item Published 60+ technical tutorials covering game engine architecture and rendering pipeline optimization; engineered modular C\# systems (player controllers, physics pipelines, UI components) with object pooling and profiler-guided memory optimization, reducing runtime memory consumption.
+    \item Applied component-based architecture and separation-of-concerns principles to structure production codebases, cutting integration defects and accelerating feature delivery across multi-disciplinary development cycles.
+\end{itemize}
+
+\vspace{2pt}
+
+\noindent\textbf{ACHIEVEMENTS}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\vspace{0pt}
+\begin{itemize}[leftmargin=10pt,itemsep=0pt,parsep=0pt,topsep=0pt]
+    \item \textbf{Google Big Code Challenge 2026} --- Round 2 Qualifier; Top 1,500 / Top 10\% participants nationwide.
+    \item LeetCode peak rating 1731 (best rank 2,325); Codeforces peak 1115; CodeChef 2$\\star$ peak 1416 (best global rank 949). \hfill \href{https://codolio.com/profile/lukeshpoddar}{\textcolor{blue}{Codolio}}
+    \item Ranked Top 21 nationally in HackQuest among 1,100+ competing teams.
+    \item Selected Top 5 national teams at BITS Pilani Hyderabad ZENITH Hackathon (500+ teams). \hfill \href{https://drive.google.com/file/d/1_GfcnI6srXznkRCc2NSSOo1lWpnOnI8M/view?usp=sharing}{\textcolor{blue}{Certificate}}
+\end{itemize}
+
+\vspace{2pt}
+
+\noindent\textbf{CERTIFICATIONS}\\[-5pt]
+\rule{\textwidth}{0.4pt}\\vspace{0pt}
+\begin{itemize}[leftmargin=10pt,itemsep=0pt,parsep=0pt,topsep=0pt]
+    \item GFG 160 Days DSA --- algorithm design, time/space complexity analysis, applied optimization techniques. \hfill\href{https://drive.google.com/file/d/1xmtbhxbkJqVnqIyEJBFWzye9Y6arBSWH/view?usp=sharing}{\textcolor{blue}{Certificate}}
+    \item Unity 2D Game Development (C\#); Hack2Skill GenAI by GCloud. \hfill\href{https://drive.google.com/file/d/1WYLKom4Tddycur4ToRH6gwuLzwIIPZE_/view?usp=sharing}{\textcolor{blue}{Cert 1}} \hspace{5pt} \href{https://drive.google.com/file/d/1sD_wew3UzORZ7dlxQiRjjk/view?usp=sharing}{\textcolor{blue}{Cert 2}}
+\end{itemize}
+
+\end{document}

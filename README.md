@@ -1,12 +1,31 @@
-# React + Vite
+# Lukesh Poddar — 3D Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Contact: +91-9304616289 · lukeshpoddar.dev@gmail.com
 
-Currently, two official plugins are available:
+Links: [GitHub](https://github.com/TechieLukesh) · [LinkedIn](https://www.linkedin.com/in/lukeshpoddar/) · [Resume](/Lukesh_Poddar_Resume.tex)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains a Vite + React 3D portfolio showcasing projects, models, and a live showcase.
 
-## Expanding the ESLint configuration
+Featured projects
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- WalmartGuard — Real-Time Fraud Detection Platform (Source: https://github.com/TechieLukesh/WalmartML)
+- Custom VCS — Git-inspired version control (Live Demo: https://frontend-main-dun.vercel.app · Source: https://github.com/variantbyx/versionControl)
+
+Development
+
+This project uses Vite with React. To run locally:
+
+```bash
+npm install
+npm run dev
+```
+
+For production build:
+
+```bash
+npm run build
+```
+
+Notes
+
+The resume TeX file is available at `/Lukesh_Poddar_Resume.tex` in the public folder.
